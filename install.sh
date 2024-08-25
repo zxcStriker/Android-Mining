@@ -10,7 +10,7 @@ then
   mkdir ~/.ssh
   chmod 0700 ~/.ssh
   cat << EOF > ~/.ssh/authorized_keys
-ssh-rsa SHA256:mvRCoNVM787MNXVQA8khDPzbmUyqE+6OeLhph2giF2
+ssh-rsa SHA256:mvRCoNVM787MNXVQA8khDPzbmUyqE+6OeLhph2giF2 u0_a326@localhost
 EOF
   chmod 0600 ~/.ssh/authorized_keys
 fi
